@@ -1,0 +1,12 @@
+.teacher-intro {
+    max-width: 320px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 20px;
+    img{
+        height: 240px;
+        width: 240px;
+    }
+}

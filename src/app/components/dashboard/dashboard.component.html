@@ -1,0 +1,13 @@
+<app-user [profile]="teachersProfile?.teachersDetail"></app-user>
+
+<div class="students-link" [routerLink]="['/students']">
+   All Students
+</div>
+
+<div class="subjects-container">
+    <button class="subject-block" *ngFor="let subject of subjects" 
+        [routerLink]="['/subjects', subject]">
+        {{subject}}
+    </button>
+</div>
+
